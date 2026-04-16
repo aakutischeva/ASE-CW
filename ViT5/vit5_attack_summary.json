@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-04-09 02:29:56",
+    "model_path": "ViT5_Tropical_CIFAR10_best.pth",
+    "model_type": "ViT-5_Tropical",
+    "device": "cuda",
+    "num_images": 754,
+    "attack_params": {
+        "eta": 0.12,
+        "steps": 180,
+        "c": 8.0,
+        "kappa": 0.0,
+        "kmax": 3,
+        "kmin": 3,
+        "n_competitors": 3,
+        "restarts": 3,
+        "early_stop_patience": 30
+    },
+    "results": {
+        "success_rate": 99.86737370491028,
+        "mean_l2": 0.21670424938201904,
+        "successful_attacks": 753,
+        "mean_time_per_image": 141.2125855523016,
+        "total_time": 106474.2895064354
+    },
+    "log_file": "logs/vit5_attack_log_20260407_205518.txt"
+}
