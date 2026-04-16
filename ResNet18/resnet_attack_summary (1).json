@@ -1,0 +1,25 @@
+{
+    "timestamp": "2026-03-28 12:51:54",
+    "model_path": "ResNet18_Tropical_CIFAR10_best (1).pth",
+    "model_type": "ResNet18_Tropical",
+    "device": "cuda:1",
+    "num_images": 995,
+    "attack_params": {
+        "eta": 0.12,
+        "steps": 180,
+        "c": 8.0,
+        "kappa": 0.0,
+        "kmax": 5,
+        "n_competitors": 3,
+        "restarts": 3,
+        "early_stop_patience": 30
+    },
+    "results": {
+        "success_rate": 93.26633214950562,
+        "mean_l2": 0.48555511236190796,
+        "successful_attacks": 928,
+        "mean_time_per_image": 37.8957696270104,
+        "total_time": 37706.29077887535
+    },
+    "log_file": "logs/resnet_attack_log_20260328_022321.txt"
+}
