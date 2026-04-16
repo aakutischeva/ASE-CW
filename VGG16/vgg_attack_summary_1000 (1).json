@@ -1,0 +1,26 @@
+{
+    "timestamp": "2026-03-29 21:49:11",
+    "model_path": "VGG16_Tropical_CIFAR10_best.pth",
+    "model_type": "VGG16_Tropical",
+    "device": "cuda",
+    "num_images": 892,
+    "attack_params": {
+        "eta": 0.12,
+        "steps": 180,
+        "c": 8.0,
+        "kappa": 0.0,
+        "kmax": 3,
+        "kmin": 3,
+        "n_competitors": 3,
+        "restarts": 3,
+        "early_stop_patience": 30
+    },
+    "results": {
+        "success_rate": 86.43497824668884,
+        "mean_l2": 0.392519474029541,
+        "successful_attacks": 771,
+        "mean_time_per_image": 104.98723631642859,
+        "total_time": 93648.6147942543
+    },
+    "log_file": "logs/vgg_attack_log_20260328_194815.txt"
+}
